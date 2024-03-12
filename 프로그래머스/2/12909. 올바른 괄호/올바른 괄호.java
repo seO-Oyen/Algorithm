@@ -4,7 +4,6 @@ class Solution {
 
         char[] temp = s.toCharArray();
         int leftn = 0;
-        int rightn = 0;
         
         for (char tes : temp) {
             if (tes == '(') {
