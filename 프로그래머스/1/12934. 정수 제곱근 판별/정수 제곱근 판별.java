@@ -5,8 +5,7 @@ class Solution {
         double d = Math.sqrt(n);
         
         if (d % 1 == 0) {
-            d++;
-            answer = (long)(d * d);
+            answer = (long)Math.pow(d + 1, 2);
         }
         
         
