@@ -12,7 +12,6 @@ class Solution {
         for (int i = st.length - 1; i >= 0; i--) {
             an += st[i];
         }
-        System.out.println(an);
         answer = Long.parseLong(an);
         
         return answer;
