@@ -3,6 +3,7 @@ class Solution {
         long answer = -1;
         
         double d = Math.sqrt(n);
+        System.out.println(d);
         
         if (d % 1 == 0) {
             answer = (long)Math.pow(d + 1, 2);
