@@ -5,7 +5,7 @@ class Solution {
         char[] arr = s.toCharArray();
         if (arr.length == 4 || arr.length == 6) {
             for (int a : arr) {
-                if (a < 48 || a > 57) {
+                if (a < '0' || a > '9') {
                     return false;
                 }
             }
