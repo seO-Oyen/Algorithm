@@ -1,5 +1,5 @@
 -- 코드를 입력하세요
 SELECT round(avg(daily_fee), 0) 
 from car_rental_company_car
-where car_type like 'SUV'
-group by car_type;
+group by car_type
+having car_type like 'SUV';
